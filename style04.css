@@ -1,0 +1,12 @@
+li:nth-child(2) {
+    background-color: greenyellow;
+    width: 130px;
+}
+li:nth-child(5) {
+    background-color: red;
+    width: 130px;
+}
+li{
+    list-style: none;
+}
+    

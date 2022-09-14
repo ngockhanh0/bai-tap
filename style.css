@@ -1,0 +1,27 @@
+li:nth-child(old) {
+    background-color: aqua;
+    border: 1px solid red;
+}
+li:nth-child(even){
+    background-color: aqua;
+    border-top: 1px solid red;
+}
+li:nth-child(2){
+    background-color: aqua;
+}
+li:nth-child(3){
+    background-color: aqua;
+    border-top: 1px solid rgb(255, 0, 0);
+}
+li:nth-child(1){
+    background-color: aqua;
+}
+ul {
+    list-style: none;
+    width: 100px;
+   text-align: center;
+}
+
+   
+
+
