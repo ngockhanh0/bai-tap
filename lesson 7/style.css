@@ -1,7 +1,7 @@
 li::marker{
     color:red
 }
-li::before {
+p::before {
     content: "✍️";
 }
 a::after {
@@ -26,7 +26,8 @@ a::after {
 a{
     font-size: 15px;
 }
-body {
+.home{
+    height: 800px;
+    width: 800px;
     margin: auto;
-    text-align: center;
 }
