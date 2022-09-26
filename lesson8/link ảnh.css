@@ -1,0 +1,24 @@
+#picture{
+    margin: 0px 0px 0px 350px;
+}
+footer{
+    text-align: center;
+   justify-content: center;
+   background: #fff;
+}
+#header{
+    height: 60px;
+    background: #fff;
+    display: flex; 
+    background-color: rgb(85, 85, 192);
+    width: 1250px;
+    position: relative;
+}
+#home{
+    padding: 20px 0px;
+    font-size: 14px;
+    margin: 0px 0px 0px 200px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}

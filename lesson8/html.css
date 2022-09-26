@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+}
+.background-image{
+    background-image: url(https://e7.pngegg.com/pngimages/46/94/png-clipart-united-states-usa-wrestling-rutgers-scarlet-knights-wrestling-collegiate-wrestling-united-states-text-logo.png);
+    width: 1250px;
+    position: relative;
+    
+}
+#header{
+    height: 60px;
+    background: #fff;
+    display: flex; 
+    background-color: rgb(85, 85, 192);
+}
+#home{
+    padding: 20px 0px;
+    font-size: 14px;
+    margin: 0px 0px 0px 200px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin-left: 400px;
+}
+button{
+    background-color: #fff;
+}
+#home2{
+    margin: 0px 20px;
+}
+#home4{
+    margin: 0px 20px;
+}
+#from{
+    margin: 0px 0px 30px;
+}
+p{
+    margin: 100px 400px;
+    font-size: 30px;
+    background: gold;
+}
+.pictur {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    padding: 30px;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.pictur1:hover{
+    transform: scale(1.2);
+}
+.pictur2:hover{
+    transform: scale(1.2);
+}
+.pictur3:hover{
+    transform: scale(1.2);
+}
+.pictur4:hover{
+    transform: scale(1.2);
+}
+.pictur5:hover{
+    transform: scale(1.2);
+}
+.pictur6:hover{
+    transform: scale(1.2);
+}
+.pictur7:hover{
+    transform: scale(1.2);
+}
+.pictur8:hover{
+    transform: scale(1.2);
+}
+.pictur9:hover{
+    transform: scale(1.2);
+}
+h3{
+background: gold;
+position: absolute;
+font-size: 10px;
+margin: 0px 0px 30px 0px;
+width: 250px;
+}
+#end{
+    background-image: url(https://e7.pngegg.com/pngimages/46/94/png-clipart-united-states-usa-wrestling-rutgers-scarlet-knights-wrestling-collegiate-wrestling-united-states-text-logo.png);
+    width: 1250px;
+}
+#enter{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+footer{
+    text-align: center;
+   justify-content: center;
+   background: #fff;
+}
