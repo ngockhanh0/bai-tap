@@ -1,0 +1,49 @@
+.loading-turn{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.loading {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    animation: rotate 3s linear infinite;
+}
+.test {
+    width: 40px;
+    height: 40px;
+    background: red;
+    margin: 4px;
+    animation: scale 1.5s linear infinite;
+}
+@keyframes scale {
+    50% {
+        transform: scale(1s);
+    }
+}
+@keyframes rotate {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.test:nth-child(1) {
+    border-radius: 100%;
+    background-color: darkorchid;
+    transform-origin: bottom right; 
+} 
+.test:nth-child(2) {
+    border-radius: 100%;
+    background-color: red;
+    transform-origin: bottom right; 
+} 
+.test:nth-child(3) {
+    border-radius: 100%;
+    background-color: green;
+    transform-origin: bottom right; 
+} 
+.test:nth-child(4) {
+    border-radius: 100%;
+    background-color: gray;
+    transform-origin: bottom right; 
+} 
+

@@ -1,0 +1,22 @@
+.card{ 
+    width: 1300px;
+    height: 550px;
+    text-align: center;
+    color: white;
+    background-color: rgb(72, 9, 101);
+}
+.picture{
+    animation: r 3s linear infinite;
+}
+@keyframes r {
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-20px) 
+    }   
+}
+p{
+    color: black;
+}
+
